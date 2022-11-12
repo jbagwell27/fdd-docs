@@ -1,20 +1,20 @@
 input: .
 output: .retype
-url: fdd-docs.com
+url: morecreative.fdd-docs.com
 branding:
-  title: First Dark Dev
-  label: Docs
+  title: More Creative Tabs
+  label: Wiki
 links:
   - text: Discord
     link: https://discord.gg/PdVnXf9
   - text: Website
     link: https://firstdarkdev.xyz
   - text: Github
-    link: https://github.com/hypherionmc/fdd-docs
+    link: https://github.com/hypherionmc/MoreCreativeTabs/
 footer:
   copyright: "&copy; {{ year }} First Dark Development. All rights reserved."
 meta:
-  title: " | First Dark Development Docs"
+  title: " | More Creative Tabs Wiki"
 search:
   placeholder: Search
 snippets:
@@ -23,4 +23,4 @@ snippets:
     - json
 edit:
   repo: "https://github.com/hypherionmc/fdd-docs"
-  branch: master
+  branch: morecreative
