@@ -23,4 +23,4 @@ snippets:
     - json
 edit:
   repo: "https://github.com/hypherionmc/fdd-docs"
-  branch: master
+  branch: main
