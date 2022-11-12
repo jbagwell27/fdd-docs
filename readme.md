@@ -36,4 +36,4 @@ You are free to clone the code and distribute the mod as your own, but I ask tha
 
 * * *
 
-[![](https://cdn.firstdarkdev.xyz/docs/simplesplash/bh.jpg)](https://bisecthosting.com/grinched)
+[![](https://cdn.firstdarkdev.xyz/docs/bh.jpg)](https://bisecthosting.com/grinched)
