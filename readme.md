@@ -13,7 +13,7 @@ This is where you can find the documentation of our various projects. The index 
 [!ref Maintenance Mode Wiki](https://mmode.fdd-docs.com)
 [!ref More Creative Tabs Wiki](https://morecreative.fdd-docs.com)
 [!ref Simple Discord Link Wiki](https://sdlink.fdd-docs.com)
-[!ref Simple Splash Screen Wiki](https://sdlink.fdd-docs.com)
+[!ref Simple Splash Screen Wiki](https://simplesplash.fdd-docs.com)
 
 &nbsp;
 
