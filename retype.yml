@@ -1,20 +1,18 @@
 input: .
 output: .retype
-url: fdd-docs.com
+url: rgblib.fdd-docs.com
 branding:
-  title: First Dark Dev
-  label: Docs
+  title: RGBLib
+  label: Wiki
 links:
   - text: Discord
     link: https://discord.gg/PdVnXf9
   - text: Website
     link: https://firstdarkdev.xyz
-  - text: Github
-    link: https://github.com/hypherionmc/fdd-docs
 footer:
   copyright: "&copy; {{ year }} First Dark Development. All rights reserved."
 meta:
-  title: " | First Dark Development Docs"
+  title: " | RGBLib Wiki"
 search:
   placeholder: Search
 snippets:
@@ -23,4 +21,4 @@ snippets:
     - json
 edit:
   repo: "https://github.com/hypherionmc/fdd-docs"
-  branch: master
+  branch: rgblib
