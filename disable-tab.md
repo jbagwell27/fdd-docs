@@ -2,7 +2,7 @@
 order: b
 title: Disabling a Vanilla/Mod Tab
 ---
-To completely disable the content of a tab (Not hide it, sadly, but only hide the contents), you need to create a file called `disabled_tabs.json` inside your resource/datapack.
+To disable a tab, create a file named `disabled_tabs.json` inside your resource pack.
 
 This file needs to be in the same location as the files used to define custom tabs.
 
@@ -15,6 +15,14 @@ An example of a disabled tab file would look like this:
 ```
 
 The file in this example, disables the "Brewing" and "Decoration" tabs.
+
+This will completely remove the tab from the inventory, and all other tabs will be re-ordered to fill the empty slots.
+
+Items from disabled tabs still show up in the Search Tab.
+
+!!! danger
+The only tab that cannot be disabled for safety reasons, is the "Survival Inventory" tab and Custom Creative Tabs.
+!!!
 
 ***
 

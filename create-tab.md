@@ -2,7 +2,7 @@
 order: a
 title: Create a Custom Tab
 ---
-Creating or configuring a custom tab, is done through JSON from either a Resource or Data pack. For this explanation, we will be using a resource pack.
+Creating or configuring a custom tab, is done through JSON through a Resource pack.
 
 !!!warning
 ~~When making changes to the resource or data pack, you will need to restart the game in order to view those changes. This is due to the way the tabs are created!~~
@@ -10,7 +10,7 @@ Creating or configuring a custom tab, is done through JSON from either a Resourc
 You can now reload edited tabs by running the `/mct reloadTabs` command. Available since 1.1
 !!!
 !!!info
-You can define multiple tabs inside a single pack. You do not need to create a custom one for each one
+You can define multiple tabs inside a single pack. You do not need to create a pack for each one
 !!!
 
 ***
@@ -20,7 +20,7 @@ The first thing you want to do is, create a new, empty resource pack. To save yo
 
 `Other Downloads`
 
-[!button variant="danger" text="Old Format"](https://cdn.firstdarkdev.xyz/curse/mct/dl/skeleton_pack.zip) [!button variant="success" text="New Format"](https://cdn.firstdarkdev.xyz/curse/mct/dl/skeleton_pack_v2.zip) [!button variant="warning" text="New Format (1.19+)"](https://cdn.firstdarkdev.xyz/curse/mct/dl/skeleton_pack_19_v2.zip)
+[!button variant="danger" text="Old Format (1.18)"](https://cdn.firstdarkdev.xyz/curse/mct/dl/skeleton_pack.zip) [!button variant="success" text="New Format (1.18)"](https://cdn.firstdarkdev.xyz/curse/mct/dl/skeleton_pack_v2.zip) [!button variant="warning" text="New Format (1.19+)"](https://cdn.firstdarkdev.xyz/curse/mct/dl/skeleton_pack_19_v2.zip)
 
 Inside your resource pack, you will need the following folder layout:
 
@@ -80,7 +80,6 @@ Explanation:
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | "tab_enabled"              | Should this custom tab be loaded by the mod                                                                                                                                                 |
 | "tab_name"                 | The translation key used in the `lang` file. For example: `lighting_tab`. This will be prefixed with `morecreativetabs.` So `lighting_tab` will become `morecreativetabs.lighting_tab`      |
-| (TO BE REMOVED) "tab_icon" | The registry name of the item to use as the tab icon. This must always be in format `modid:itemname`. You can find this by dropping an item on the ground and looking at it, with F3 active |
 | "tab_stack"                | The registry name and optional NBT of the item to use as the tab icon. See example above |                                                                                                   |
 |                            |                                                                                                                                                                                             |
 | "tab_items"                | This contains a reference to all the items contained in the tab                                                                                                                             |
@@ -89,7 +88,7 @@ Explanation:
 | "nbt" -> Optional          | Pretty self explanatory, but this allows you to set NBT values on an item inside the tab                                                                                                    |
 
 !!!warning
-"tab_enabled", "tab_name", "tab_icon" and "tab_items" must always be present, or the file will not load
+"tab_enabled", "tab_name", "tab_stack" and "tab_items" must always be present, or the file will not load
 !!!
 
 ---
@@ -110,3 +109,5 @@ Here you can download a couple of pre-made packs, to see how they work and make 
 
 * [Disable Brewing](https://cdn.firstdarkdev.xyz/curse/mct/dl/disable_brewing.zip) -> Disables the Brewing Tab
 * [Disable Brewing (1.19+)](https://cdn.firstdarkdev.xyz/curse/mct/dl/disable_brewing_v2.zip) -> (For 1.19+) Disables the Brewing Tab
+* [Amended (1.18+)](https://modrinth.com/resourcepack/amended) -> A community made pack that brings the 1.19.3/1.20 inventory to older versions
+* [Dev Pack (1.19+)](https://cdn.firstdarkdev.xyz/curse/mct/dl/devpack.zip) -> (For 1.19+) This is the test resource pack we use while developing the mod
