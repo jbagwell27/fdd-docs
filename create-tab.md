@@ -8,6 +8,9 @@ Creating or configuring a custom tab, is done through JSON through a Resource pa
 ~~When making changes to the resource or data pack, you will need to restart the game in order to view those changes. This is due to the way the tabs are created!~~
 
 You can now reload edited tabs by running the `/mct reloadTabs` command. Available since 1.1
+
+To reload Language files, you need to use the standard `F3 + T` key combo
+
 !!!
 !!!info
 You can define multiple tabs inside a single pack. You do not need to create a pack for each one
