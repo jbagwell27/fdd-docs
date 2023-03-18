@@ -1,8 +1,8 @@
 input: .
 output: .retype
-url: fdd-docs.com
+url: modpublisher.fdd-docs.com
 branding:
-  title: First Dark Dev
+  title: ModPublisher
   label: Docs
 links:
   - text: Discord
@@ -10,11 +10,11 @@ links:
   - text: Website
     link: https://firstdarkdev.xyz
   - text: Github
-    link: https://github.com/hypherionmc/fdd-docs
+    link: https://github.com/firstdarkdev/modpublisher
 footer:
   copyright: "&copy; {{ year }} First Dark Development. All rights reserved."
 meta:
-  title: " | First Dark Development Docs"
+  title: " | ModPublisher Gradle Plugin Docs"
 search:
   placeholder: Search
 snippets:
@@ -23,4 +23,4 @@ snippets:
     - json
 edit:
   repo: "https://github.com/hypherionmc/fdd-docs"
-  branch: master
+  branch: modpublisher
