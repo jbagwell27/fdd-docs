@@ -10,7 +10,7 @@ title: Welcome
 
 This mod allows you to create and add items to custom creative tabs, using JSON files inside resource packs. It's aimed at modpack makers and even allows you to disable access to vanilla creative tabs as well as tabs from other mods
 
-This mod is client-side only and is very small in size with no dependencies (other than the Fabric API on Fabric), so you can easily include it inside your modpack.
+This mod is client-side only and is very small with no dependencies (other than the Fabric API on Fabric), so you can easily include it inside your modpack.
 &nbsp;
 
 ![](https://cdn.firstdarkdev.xyz/curse/mct/mct_help.png)
