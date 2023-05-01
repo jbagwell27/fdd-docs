@@ -5,8 +5,6 @@ title: Create a Custom Tab
 Creating or configuring a custom tab, is done through JSON through a Resource pack.
 
 !!!warning
-~~When making changes to the resource or data pack, you will need to restart the game in order to view those changes. This is due to the way the tabs are created!~~
-
 You can now reload edited tabs by running the `/mct reloadTabs` command. Available since 1.1
 
 To reload Language files, you need to use the standard `F3 + T` key combo
@@ -19,11 +17,11 @@ You can define multiple tabs inside a single pack. You do not need to create a p
 ***
 
 ### Getting Started
-The first thing you want to do is, create a new, empty resource pack. To save you some time, you can also download the [SKELETON PACK](https://cdn.firstdarkdev.xyz/curse/mct/dl/skeleton_pack_v2.zip) with all the base files already created.
+The first thing you want to do is, create a new, empty resource pack. To save you some time, you can also download the SKELETON packs below with all the base files already created.
 
 `Other Downloads`
 
-[!button variant="danger" text="Old Format (1.18)"](https://cdn.firstdarkdev.xyz/curse/mct/dl/skeleton_pack.zip) [!button variant="success" text="New Format (1.18)"](https://cdn.firstdarkdev.xyz/curse/mct/dl/skeleton_pack_v2.zip) [!button variant="warning" text="New Format (1.19+)"](https://cdn.firstdarkdev.xyz/curse/mct/dl/skeleton_pack_19_v2.zip)
+[!button variant="success" text="New Format (1.18)"](https://cdn.firstdarkdev.xyz/curse/mct/dl/skeleton_pack_v2.zip)  [!button variant="warning" text="New Format (1.19 - 1.19.2)"](https://cdn.firstdarkdev.xyz/curse/mct/dl/skeleton_pack_19_v3.zip) [!button variant="danger" text="New Format (1.19.3+)"](https://cdn.firstdarkdev.xyz/curse/mct/dl/skeleton_pack_193_v2.zip)
 
 Inside your resource pack, you will need the following folder layout:
 
@@ -39,7 +37,7 @@ Inside your resource pack, you will need the following folder layout:
 ``` 
 
 !!!info
-When using the [SKELETON PACK](https://cdn.firstdarkdev.xyz/curse/mct/dl/skeleton_pack_v2.zip), these files/folders will already be created for you
+When using the SKELETON PACK, these files/folders will already be created for you
 !!!
 
 ---
