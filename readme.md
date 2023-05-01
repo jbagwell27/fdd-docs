@@ -17,7 +17,7 @@ This mod is client-side only and is very small with no dependencies (other than 
 
 The configuration of this mod, as well as a couple of examples can be found on this wiki. You can also find pre-made or example packs inside the docs, to help you get started.
 
-Should you need any other assistance, please open a Github Issue or join my discord.
+Should you need any other assistance, please open a GitHub Issue or join my discord.
 &nbsp;
 
 ![](https://cdn.firstdarkdev.xyz/curse/mct/mct_support.png)
