@@ -10,7 +10,7 @@ This plugin is mostly aimed at projects using MultiLoader Template and for our i
 
 ---
 
-### Setup
+||| Installing the Plugin
 
 To use this plugin inside your project, first you have to add our maven.
 
@@ -38,10 +38,9 @@ plugins {
 ```
 
 Replace VERSION with the version above.
+|||
 
----
-
-### Basic Setup
+||| Basic Setup
 
 Add this into your `build.gradle` file:
 
@@ -59,12 +58,15 @@ publisher {
     githubRepo = "OWNER/REPO" // For example, https://github.com/firstdarkdev/modpublisher OR firstdarkdev/modpublisher
     versionType = "release" // Release Type. Either release, beta, or alpha
     changelog = "changelog.md" // Changelog file, or text. Only MARKDOWN is supported
-    version = "1.3.0" // Only used by modrinth
+    version = "1.3.0" // Used by modrinth and GitHub
     displayName = "MyAwesome Mod - Version" // Friendly display name for the file
     gameVersions = ["1.19.3", "1.19.4"] // Supported Game Versions
     loaders = ["forge", "fabric", "quilt"] // Supported Modloaders
+    curseEnvironment = "both" // Set the new Curseforge mod type. Valid entries are client, server or both
+    disableMalwareScanner = true // Disable the built in fractureiser scanner
     artifact = jar // File or file location of the file to upload
 }
 ```
+|||
 
 [!ref Modrinth/Curseforge Dependencies](dependencies/)

@@ -5,7 +5,7 @@ order: b
 
 Sometimes, a mod requires some additional dependencies to work. This can be easily added with the following blocks:
 
-### Curseforge
+||| Curseforge
 
 ```groovy
 curseDepends {
@@ -15,10 +15,9 @@ curseDepends {
     embedded = ["my-api"] // Embedded dependencies
 }
 ```
+|||
 
----
-
-### Modrinth
+||| Modrinth
 
 ```groovy
 modrinthDepends {
@@ -28,10 +27,9 @@ modrinthDepends {
     embedded = ["hvFnDODi", "9s6osm5g"] // Embedded dependencies
 }
 ```
+|||
 
----
-
-### Full Example
+||| Full Example
 
 ```groovy
 publisher {
@@ -47,7 +45,7 @@ publisher {
     githubRepo = "OWNER/REPO" // For example, https://github.com/firstdarkdev/modpublisher OR firstdarkdev/modpublisher
     versionType = "release" // Release Type. Either release, beta, or alpha
     changelog = "changelog.md" // Changelog file, or text. Only MARKDOWN is supported
-    version = "1.3.0" // Only used by modrinth
+    version = "1.3.0" // Used by Modrinth and GitHub
     displayName = "MyAwesome Mod - Version" // Friendly display name for the file
     gameVersions = ["1.19.3", "1.19.4"] // Supported Game Versions
     loaders = ["forge", "fabric", "quilt"] // Supported Modloaders
@@ -68,3 +66,4 @@ publisher {
     }
 }
 ```
+|||
