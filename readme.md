@@ -66,6 +66,8 @@ publisher {
     disableMalwareScanner = true // Disable the built in fractureiser scanner
     disableEmptyJarCheck = true // Disable checking if the required meta file for the modloaders are present in the jar. For example, fabric.mod.json on fabric and quilt
     artifact = jar // File or file location of the file to upload
+    useModrinthStaging = false // Upload to modrinth Staging
+    additionalFiles = [javadocJar, sourcesJar] // Additional files to upload
 }
 ```
 |||
