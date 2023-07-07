@@ -44,6 +44,10 @@ Replace VERSION with the version above.
 
 Add this into your `build.gradle` file:
 
+!!!info
+This is just an example. You can remove what you don't need
+!!!
+
 ```groovy
 publisher {
     apiKeys {
