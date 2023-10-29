@@ -7,20 +7,20 @@
 Although it's not required, It helps to enable "Developer Mode" on your Discord account.
 
 Go to your Discord Settings  
-![](devmode1.png)
+![](discord-bot-images/devmode1.png)
 
 Scroll through the side panel and select "Advanced" in the **App Settings** section  
-![](devmode2.png)
+![](discord-bot-images/devmode2.png)
 
 Toggle Developer Mode  
-![](devmode3.png)
+![](discord-bot-images/devmode3.png)
 
 ### Creating the Bot
 
 Go to [https://discord.com/developers](https://discord.com/developers)
 
 Select "New Application" in the top right  
-![](application1.png)
+![](discord-bot-images/application1.png)
 
 Give it a name, Agree to the Discord EULA, and click "Create"
 
@@ -29,29 +29,29 @@ Even though it will let you, Don't put "Discord" in the name of the application,
 The Bot can't have "Discord" in the name, and it uses the Application name as the default bot name.
 :::
 
-![](application2.png)
+![](discord-bot-images/application2.png)
 
 ### Configuring the Bot
 
 #### Token and Intents
 
 In the **BOT** Section click "Reset Token" to generate a private token. This is how SDLink knows which bot to send the commands to. Make a note of the token. once you leave this page, you won't be able to see it and will have to reset it again.  
-![](bot1.png)
+![](discord-bot-images/bot1.png)
 
 :::DANGER DO NOT SHARE THE BOT TOKEN
 It's important that you don't share this bot token with anyone. It is essentially the password for your bot. If the token is leaked anyone can use it for their own program and will have access to your Discord server.
 :::
 
 Ensure all options in "Privileged Gateway Intents" are checked. These are needed for the bot to function.  
-![](bot2.png)
+![](discord-bot-images/bot2.png)
 
 #### Permissions
 
 Go to "OAuth2" >> "URL Generator" on the side panel  
-![](bot3.png)
+![](discord-bot-images/bot3.png)
 
 Select "bot" in the **SCOPES** section. This will reveal a separate section for **BOT PERMISSIONS**  
-![](bot4.png)
+![](discord-bot-images/bot4.png)
 
 In the **BOT PERMISSIONS** section, enable the following:
 
@@ -68,6 +68,6 @@ In the **BOT PERMISSIONS** section, enable the following:
 - Use External Emojis
 - Use Slash Commands
 
-![](bot5.png)
+![](discord-bot-images/bot5.png)
 
 Use the **GENERATED URL** at the bottom of the page to invite the bot to your discord channel
