@@ -1,72 +1,73 @@
----
-title: Creating the Discord Bot
-order: a
----
+# SDLink Setup
 
-Simple Discord Link requires a Discord Bot, or Discord Application to function. Even if you already have a discord bot/application set up, follow through this guide to make sure the setup is still correct.
+## Discord Bot
 
-!!!danger Do not skip any steps
-A common problem users run into, is skipping a vital step of this set up. Specifically, the second step of part 2. PLEASE read the docs thoroughly, to avoid any problems later on
-!!!
+### Enable Developer Mode
 
-***
+Before you can add a bot, you need to enable developer mode on your account.
 
-## Part 1 - Creating the discord Application
+Go to your Discord Settings  
+![](devmode1.png)
 
-To get started, head over to https://discord.com/developers and sign in using your Discord account. After sign in, you will be greeted by the Discord Developer Dashboard.
+Scroll through the side panel and select "Advanced" in the **App Settings** section
+![](devmode2.png)
 
-Press the "New Application" button, located at the top right of the screen (see screenshot below).
+Toggle Developer Mode
+![](devmode3.png)
 
-![Discord Developers Portal](https://cdn.firstdark.dev/docs/sdlink-wiki/bot_step1.png)
+### Creating the Bot
 
-&nbsp;
+Go to [https://discord.com/developers](https://discord.com/developers)
 
-You will then be greeted by the "Create an Application" dialog. On this dialog, you will need to enter the name of your bot/application and accept the Discord terms and conditions.
+Select "New Application" in the top right
+![](application1.png)
 
-!!!warning Notice about names
-The name of your discord bot/application CANNOT include the word `Discord`. This will cause problems, and will cause your bot not to start up
-!!!
+Give it a name, Agree to the Discord EULA, and click "Create"
 
-![Create Application Dialog](https://cdn.firstdark.dev/docs/sdlink-wiki/bot_step2.png)
+:::NOTE Naming Convention
+Even though it will let you, Don't put "Discord" in the name of the application, or you're gonna have a bad time.
+The Bot can't have "Discord" in the name, and it uses the Application name as the default bot name.
+:::
 
-&nbsp;
+![](application2.png)
 
-Once you have created your app, you will be shown the "General Information" screen. Here you can upload an icon for your application and optionally, give your bot a description. The description will be shown in the "About" section of the bot profile in discord.
+### Configuring the Bot
 
-![General Information Screen](https://cdn.firstdark.dev/docs/sdlink-wiki/bot_step3.png)
+#### Token and Intents
 
-***
+In the **BOT** Section click "Reset Token" to generate a private token. This is how SDLink knows which bot to send the commands to. Make a note of the token. once you leave this page, you won't be able to see it and will have to reset it again.
+![](bot1.png)
 
-## Part 2 - Set up the bot
+:::DANGER DO NOT SHARE THE BOT TOKEN
+It's important that you don't share this bot token with anyone. It is essentially the password for your bot. If the token is leaked anyone can use it for their own program and will have access to your Discord server.
+:::
 
-!!!danger DO NOT SKIP THIS PART
-These steps are very important. This is where most users screw up, and then their bots fail to function
-!!!
+Ensure all options in "Privileged Gateway Intents" are checked. These are needed for the bot to function.
+![](bot2.png)
 
-Click on "Bot", on the navigation menu on the left. This will open the Bot page of your application. This is where you will get your bot token.
+#### Permissions
 
-![Bot Screen](https://cdn.firstdark.dev/docs/sdlink-wiki/bot_step4.png)
+Go to "OAuth2" >> "URL Generator" on the side panel
+![](bot3.png)
 
-Here, you want to click on "Reset Token". This will generate a new discord bot token for you. Copy this token into notepad, or somewhere you can reach it again, as you will need it later in the mod config.
+Select "bot" in the **SCOPES** section. This will reveal a separate section for **BOT PERMISSIONS**
+![](bot4.png)
 
-!!!danger KEEP THIS TOKEN PRIVATE
-If you leak this token, anyone can run a bot impersonating yours, that could do basically anything it wants. The token will be encrypted in the config as well, to prevent accidental leakage when sharing your config.
-!!!
+In the **BOT PERMISSIONS** section, enable the following:
 
-&nbsp;
+- Manage Roles
+- Manage Channels
+- Ban Members
+- Manage Webhooks
+- Read Messages/View Channels
+- Send Messages
+- Manage Messages
+- Embed Links
+- Read Message History
+- Mention Everyone
+- Use External Emojis
+- Use Slash Commands
 
-### The very important part
+![](bot5.png)
 
-On the same screen where you found your bot token, scroll down until you see a bunch of switches.
-
-![Bot Screen 2](https://cdn.firstdark.dev/docs/sdlink-wiki/bot_step5.png)
-
-On this screen you need to:
-
-1) Disable Public Bot. This will prevent other people aside from you, inviting the bot to their discords, using your invite link from the logs.
-2) Enable the Presence intent. This is required so that the bot can detect users leaving and joining your discord.
-3) Enable the Server Members intent. This is required so that the bot can interact with users in your discord server.
-4) Enable the message content intent. Without this, the bot will not be able to relay messages from Discord to Minecraft.
-
-
-If you do not enable 2-4, your bot will fail to start. This is one that so many users mess up, so please double check this!
+Use the **GENERATED URL** at the bottom of the page to invite the bot to your discord channel
