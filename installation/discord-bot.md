@@ -4,7 +4,7 @@
 
 ### Enable Developer Mode
 
-Before you can add a bot, you need to enable developer mode on your account.
+Although it's not required, It helps to enable "Developer Mode" on your Discord account.
 
 Go to your Discord Settings  
 ![](devmode1.png)
