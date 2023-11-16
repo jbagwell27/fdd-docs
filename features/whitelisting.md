@@ -1,6 +1,6 @@
 ---
-title: Whitelisting
-order: a
+title: Access Control
+order: b
 ---
 
 Simple Discord Link V3 no longer contains the old Whitelisting and Account Linking systems. Instead, it includes a new system called Access Control, which is a much more powerful, much more stable and much more user/server owner friendly.
