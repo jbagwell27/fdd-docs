@@ -22,7 +22,7 @@ Toggle Developer Mode
 Go to [https://discord.com/developers](https://discord.com/developers)
 
 Select "New Application" in the top right
-![](https://cdn.firstdark.dev/docs/sdlink-wiki/application1.png)
+-![](https://cdn.firstdark.dev/docs/sdlink-wiki/application1.png)
 
 Give it a name, Agree to the Discord EULA, and click "Create"
 
@@ -31,14 +31,14 @@ Even though it will let you, Don't put "Discord" in the name of the application,
 The Bot can't have "Discord" in the name, and it uses the Application name as the default bot name.
 :::
 
-![](https://cdn.firstdark.dev/docs/sdlink-wiki/application2.png)
+-![](https://cdn.firstdark.dev/docs/sdlink-wiki/application2.png)
 
 ## Configuring the Bot (**Bot** Section)
 
 ### Build-A-Bot
 
 In the **Build-A-Bot** Section click "Reset Token" to generate a private token. This is how SDLink knows which bot to send the commands to. Make a note of the token. once you leave this page, you won't be able to see it and will have to reset it again.
-![](https://cdn.firstdark.dev/docs/sdlink-wiki/bot1.png)
+-![](https://cdn.firstdark.dev/docs/sdlink-wiki/bot1.png)
 
 !!!danger DO NOT SHARE THE BOT TOKEN
 It's important that you don't share this bot token with anyone. It is essentially the password for your bot. If the token is leaked anyone can use it for their own program and will have access to your Discord server.
@@ -48,20 +48,20 @@ This token will also be encrypted in the config file after you launch the server
 ### Authorization Flow
 
 Disable the "PUBLIC BOT" flag. This will ensure that only YOU can add the bot to a server
-![](https://cdn.firstdark.dev/docs/sdlink-wiki/bot2.png)
+-![](https://cdn.firstdark.dev/docs/sdlink-wiki/bot2.png)
 
 ### Privileged Gateway Intents
 
 Ensure all options in "Privileged Gateway Intents" are checked. These are needed for the bot to function.
-![](https://cdn.firstdark.dev/docs/sdlink-wiki/bot6.png)
+-![](https://cdn.firstdark.dev/docs/sdlink-wiki/bot6.png)
 
 ## OAuth2 URL Generator
 
 Go to "OAuth2" >> "URL Generator" on the side panel
-![](https://cdn.firstdark.dev/docs/sdlink-wiki/bot3.png)
+-![](https://cdn.firstdark.dev/docs/sdlink-wiki/bot3.png)
 
 Select "applications.commands" and "bot" in the **SCOPES** section.
-![](https://cdn.firstdark.dev/docs/sdlink-wiki/bot4.png)
+-![](https://cdn.firstdark.dev/docs/sdlink-wiki/bot4.png)
 
 In the **BOT PERMISSIONS** section, enable the following:
 
@@ -81,7 +81,7 @@ Optionally you can enable:
 - Ban Members
 - Mention Everyone
 
-![](https://cdn.firstdark.dev/docs/sdlink-wiki/bot5.png)
+-![](https://cdn.firstdark.dev/docs/sdlink-wiki/bot5.png)
 
 For more details on what each permission does: see [SDLink Permissions Explained](./sdlink-perms.md)
 
