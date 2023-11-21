@@ -31,8 +31,7 @@ This is the identifier for your bot. This token will be encrypted when it's serv
 
 ### Setting the Chat Channel
 
-To get the chat channel ID, right-click on the channel you want chat and events to go and select "Copy Channel ID"  
--![](mod-config1.png)
+To get the chat channel ID, right-click on the channel you want chat and events to go and select "Copy Channel ID"<br>![](mod-config1.png)
 
 In the `[channelsAndWebooks.channels]` section paste that ID in the `chatChannelID` field
 
@@ -47,10 +46,8 @@ In the `[channelsAndWebooks.channels]` section paste that ID in the `chatChannel
 ```
 
 This is the bare minimum needed to get the bot up and running with a status
-
--![](mod-config3.png)
-
--![](mod-config2.png)
+<br>![](mod-config3.png)  
+<br>![](mod-config2.png)
 
 For more information on these other fields, see [[SDLink Advanced Mod Setup]]
 
