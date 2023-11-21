@@ -1,3 +1,8 @@
+---
+title: "Empty Config"
+order: d
+---
+
 # Empty Config
 
 ```json

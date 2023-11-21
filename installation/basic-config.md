@@ -2,17 +2,20 @@
 
 This will go through the basics of getting the mod installed with bot status and chat features  
 
-> [!NOTE]
-> Before continuing, ensure you have followed the steps to Create and Invite the Discord Bot to your Discord server [Discord Bot Creation](./bot-creation)
+:::note
+Before continuing, ensure you have followed the steps to Create and Invite the Discord Bot to your Discord server - [Discord Bot Setup](./bot-creation.md)
+:::
 
 ## Installing the mod
 
 SDLink requires CraterLib as a dependency. Download and transfer the mod files to the `mods/` folder
 
-*Link to download pages*
+[Download from Modrinth](https://modrinth.com/mod/craterlib) - [Download from Curseforge](https://www.curseforge.com/minecraft/mc-mods/craterlib)
+
+***
 
 At first run an empty config file will be generated: `config/simple-discord-link/simple-discord-link.toml`  
-See: [[empty-config]]
+See: [Empty Config](./empty-config.md)
 
 ## Configuration Settings
 
@@ -27,11 +30,11 @@ In the `[botConfig]` section, insert the bot token saved from [Empty Config](./e
 	statusUpdateInterval = 30
 ```
 
-This is the identifier for your bot. This token will be encrypted when it's server starts up again.
+This is the identifier for your bot. This token will be encrypted when your server starts up again.
 
 ### Setting the Chat Channel
 
-To get the chat channel ID, right-click on the channel you want chat and events to go and select "Copy Channel ID"<br>![](mod-config1.png)
+To get the chat channel ID, right-click on the channel you want chat and events to go and select "Copy Channel ID"<br>![](https://cdn.firstdark.dev/docs/sdlink-wiki/mod-config1.png)
 
 In the `[channelsAndWebooks.channels]` section paste that ID in the `chatChannelID` field
 
@@ -46,8 +49,9 @@ In the `[channelsAndWebooks.channels]` section paste that ID in the `chatChannel
 ```
 
 This is the bare minimum needed to get the bot up and running with a status
-<br>![](mod-config3.png)  
-<br>![](mod-config2.png)
+
+<br>![](https://cdn.firstdark.dev/docs/sdlink-wiki/mod-config3.png)  
+<br>![](https://cdn.firstdark.dev/docs/sdlink-wiki/mod-config2.png)
 
 For more information on these other fields, see [SDLink Advanced Mod Setup](./advanced-config)
 
