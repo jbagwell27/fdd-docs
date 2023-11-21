@@ -1,3 +1,8 @@
+---
+title: SDLink Permissions Explained
+order: b
+---
+
 # SDLink Discord Bot Permissions
 
 Below is a brief description of each Discord permission that SDLink uses
