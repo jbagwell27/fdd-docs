@@ -3,7 +3,7 @@
 This will go through the basics of getting the mod installed with bot status and chat features  
 
 > [!NOTE]
-> Before continuing, ensure you have followed the steps to Create and Invite the Discord Bot to your Discord server [[SDLink Discord Bot Setup]]
+> Before continuing, ensure you have followed the steps to Create and Invite the Discord Bot to your Discord server [Discord Bot Creation](./bot-creation)
 
 ## Installing the mod
 
@@ -18,7 +18,7 @@ See: [[empty-config]]
 
 ### Add the Bot Token
 
-In the `[botConfig]` section, insert the bot token saved from [[SDLink Discord Bot Setup]]
+In the `[botConfig]` section, insert the bot token saved from [Empty Config](./empty-config)
 
 ```json
 [botConfig]
@@ -49,5 +49,5 @@ This is the bare minimum needed to get the bot up and running with a status
 <br>![](mod-config3.png)  
 <br>![](mod-config2.png)
 
-For more information on these other fields, see [[SDLink Advanced Mod Setup]]
+For more information on these other fields, see [SDLink Advanced Mod Setup](./advanced-config)
 
