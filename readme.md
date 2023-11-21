@@ -13,13 +13,13 @@ Simple Discord Link is a Minecraft mod that allows you to bridge the gap between
 
 ![](https://cdn.firstdark.dev/artpacks/sdlink/features.png)
 
-This mod allows you to:
+Some features include:
 
 * Minecraft to Discord and Discord to Minecraft Chat Relay
-* Console to Discord Relay
-* Execute Minecraft Commands from Discord
-* Whitelist and Link Accounts
-* Get a Quick Server Status Overview
+* Server Console to Discord Relay
+* Executing Minecraft Commands from Discord
+* Access Control. Similar to Whitelisting
+* A Quick Server Status Overview
 * View active players on the server
 * Format chat between Minecraft and Discord
 * And many more features!
