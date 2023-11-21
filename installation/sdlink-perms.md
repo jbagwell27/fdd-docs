@@ -7,7 +7,7 @@ order: b
 
 Below is a brief description of each Discord permission that SDLink uses
 
-Required Permissions:
+**Required Permissions**:
 
 - Manage Channels
   - Allows for modifying the channel topic for player count and uptime information
@@ -28,7 +28,7 @@ Required Permissions:
 - Use Slash Commands
   - Allows for `/` commands to be used in Discord. Eg, `/playerlist` to see the list of currently active players
 
-Optional Permissions:
+**Optional Permissions**:
 
 - Manage Roles
   - Allows you to add a Discord Role to a player when they link their accounts
