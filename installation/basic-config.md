@@ -1,3 +1,7 @@
+---
+title: Basic Mod Setup
+order: c
+---
 # SDLink Basic Mod Setup
 
 This will go through the basics of getting the mod installed with bot status and chat features  
@@ -21,7 +25,7 @@ See: [Empty Config](./empty-config.md)
 
 ### Add the Bot Token
 
-In the `[botConfig]` section, insert the bot token saved from [Empty Config](./empty-config)
+In the `[botConfig]` section, insert the bot token saved from [Discord Bot Setup](./bot-creation.md)
 
 ```json
 [botConfig]
