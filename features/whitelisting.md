@@ -125,3 +125,39 @@ This whole process is automatic, and only requires your player to have a confirm
 !!!info
 Note that you would also need one of the roles configured here to be able to join the server
 !!!
+
+***
+
+### Block Certain Roles from Access your Server
+
+Let's say Hypherion has been misbehaving in your discord server, and you've put him in a timeout, and you also want to put him in a timeout from your server, without banning him...
+
+In your discord, you have a role called `Time Out` with ID `3985082359835832039275`. 
+
+To block pesky Hypherion from accessing your server while he has this role, you just need to add this to your config:
+
+```json
+deniedRoles = ["3985082359835832039275"]
+```
+
+So your full config will look like this:
+
+```json
+[accessControl]
+	#Enable Access Control
+	enabled = true
+	#Does the player need to be a member of your discord to join
+	requireDiscordMembership = true
+	#Optional: The player requires any of these roles to be able to join your server
+	requiredRoles = []
+	#Optional: Players with these roles will never be allowed access to your server
+	deniedRoles = ["3985082359835832039275"]
+	#Optional: Role name or ID to assign to verified player accounts
+	verifiedRole = ""
+	#Should players with verified accounts, be banned from Minecraft if they get banned on discord
+	banPlayerOnDiscordBan = false
+	#Should members with verified accounts, be banned from discord when they are banned on Minecraft
+	banMemberOnMinecraftBan = false
+```
+
+Now for as long as mister Hypherion has the `Time Out` role, he won't be able to access your minecraft server.
