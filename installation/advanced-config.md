@@ -374,13 +374,13 @@ Allows you to customize the messages that appear when accessControl is enabled.
 
 This allows you to execute in-game commands from Discord
 
-See [Linked Commands](/features/linked-commands.md) for more details on how this works
-
 :::note Multiple Servers
 If you have multiple sdlink bots on the same Discord server, you may want to change the prefix for the commands.
 If the prefix is the same, the command will be triggered on all servers at once.
 <br>![](advanced-config7.png)
 :::
+
+See [Linked Commands](/features/linked-commands.md) for more details on how this works
 
 ```json
 #Execute Minecraft commands in Discord
