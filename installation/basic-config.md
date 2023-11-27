@@ -57,4 +57,4 @@ This is the bare minimum needed to get the bot up and running with a status
 <br>![](https://cdn.firstdark.dev/docs/sdlink-wiki/mod-config3.png)  
 <br>![](https://cdn.firstdark.dev/docs/sdlink-wiki/mod-config2.png)
 
-For more complex configuration, see [SDLink Advanced Mod Setup](./advanced-config)
+For more complex configuration, see [SDLink Advanced Mod Setup](webhook-config.md)
