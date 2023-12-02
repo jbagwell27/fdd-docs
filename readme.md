@@ -4,7 +4,7 @@ title: Mod Overview
 ---
 ![](https://cdn.firstdark.dev/artpacks/sdlink/banner.png)
 
-[![](https://img.shields.io/badge/Forge/Fabric-Download%20Here-yellow.svg)](https://www.curseforge.com/minecraft/mc-mods/simple-discord-link-bot-forge-fabric-spigot/) [![](https://img.shields.io/badge/Jenkins-Development%20Builds-red.svg)](https://ci.hypherionmc.me/job/Simple%20Discord%20Link/) [![](https://img.shields.io/badge/Discord-First%20Dark%20Development-blue.svg)](https://discord.firstdark.dev)
+[![](https://img.shields.io/badge/Forge/Fabric-Download%20Here-yellow.svg)](https://www.curseforge.com/minecraft/mc-mods/simple-discord-link-bot-forge-fabric-spigot/) [![](https://img.shields.io/badge/Snapshot-Development%20Builds-red.svg)](https://snapshots.firstdark.dev/project/sdlink) [![](https://img.shields.io/badge/Discord-First%20Dark%20Development-blue.svg)](https://discord.firstdark.dev)
 ***
 ![](https://cdn.firstdark.dev/artpacks/sdlink/overview.png)
 
