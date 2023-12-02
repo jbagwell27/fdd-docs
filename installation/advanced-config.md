@@ -3,6 +3,8 @@
 There are several other options you can enable in the config to further customize your experience.  
 Below are the different sections of the config file explained in more detail.
 
+***
+
 ## botConfig
 
 This sections customize how the bot will show in Discord.
@@ -20,7 +22,7 @@ See [SDLink Basic Mod Setup](/installation/basic-config.md) for details on setti
 ### botConfig.botStatus
 
 This section lets you customize the status that appears in the user panel:
-<br>![](./advanced-config1.png)
+<br>![](https://cdn.firstdark.dev/docs/sdlink-wiki/advanced-config1.png)
 
 **Variables**  
 `%players%` = number of connected players  
@@ -42,7 +44,7 @@ If `CUSTOM_STATUS` is used, there will be no prefix added to the status message:
 ### botConfig.topicUpdates
 
 This allows you to change the channel topic of the chat channel.
-<br>![](advanced-config2.png)
+<br>![](https://cdn.firstdark.dev/docs/sdlink-wiki/advanced-config2.png)
 
 ```json
  #Define how the bot should handle channel topic updates on the chat channel
@@ -68,6 +70,8 @@ This will allow you to invite players on a public server to the Discord directly
     inviteMessage = "Hey, check out our discord server here -> %inviteurl%"
 ```
 
+***
+
 ## channelsAndWebooks
 
 These settings allow you to configure the channel IDs as well as webhook URLs
@@ -91,7 +95,7 @@ There are 3 different channels you can configure: CHAT, EVENT, CONSOLE
 
 - CHAT: Any in-game message will come through here. CHAT channel is **required** even if webhooks are enabled.
 - EVENT: Any server event will come through here: Examples include: Player join/leave, Server start/stop, Player died, etc.
-- CONSOLE: All server console output will come through here.
+- CONSOLE: All messages with destination CONSOLE will come through here. This CANNOT be used for Console relay
 
 :::note
 Both `eventsChannelID` and `consoleChannelID` are optional. If the EVENT channel is empty, SDLink will default to the CHAT channel for its message destination. The destinations can be manually modified. See *Link to messageDestinations in current document*
@@ -131,22 +135,24 @@ Even if webhook messages are enabled, a channelID for CHAT is still required for
 	consoleWebhook = ""
 ```
 
+***
+
 ## chat
 
 This section lets you decide what messages are sent through SDLink.  
 Most of these are self-explanatory, but there are a few that aren't so obvious:
 
 **useLinkedNames**: Allows in-game messages to appear as though they were sent from Discord. It only works if the account is linked via *link to access control config*, and only works if webhooks are enabled.
-<br>![](./advanced-config3.png)
+<br>![](https://cdn.firstdark.dev/docs/sdlink-wiki/advanced-config3.png)
 
 **formatting**: Whether or not formatting will be converted between Discord and MC. Example Below:  
 Sending a message in bold
-<br>![](advanced-config4.png) ![](advanced-config6.png)
+<br>![](https://cdn.firstdark.dev/docs/sdlink-wiki/advanced-config4.png) ![](https://cdn.firstdark.dev/docs/sdlink-wiki/advanced-config6.png)
 
 **relayTellRaw**: This will send in-game "TellRaw" commands through to Discord. *Currently experimental*
 
 **relayFullCommands**: Whether the in-game commands will be relayed in full or just the name:
-<br>![](advanced-config5.png)
+<br>![](https://cdn.firstdark.dev/docs/sdlink-wiki/advanced-config5.png)
 
 **ignoreBots**: This will stop any bot text from being relayed from Discord -> MC. Good to help prevent in-game chat spam
 
@@ -200,10 +206,12 @@ See *link to mentions feature*
 	allowMentionsFromChat = false
 ```
 
+***
+
 ## messageFormatting
 
 This section lets you customize the messages being sent between Discord and MC  
-With the exception of `mcPrefix`, All options are being sent MC -> Discord
+Except `mcPrefix`, All options are being sent MC -> Discord
 
 :::note
 Messages being sent support most of Discord formatting (Markdown): eg, `**Bold**`, `*Italics*`
@@ -235,6 +243,9 @@ Messages being sent support most of Discord formatting (Markdown): eg, `**Bold**
 	#Command Messages. Available variables: %player%, %command%
 	commands = "%player% **executed command**: *%command%*"]
 ```
+
+***
+
 
 ## messageDestinations
 
@@ -329,11 +340,13 @@ For more information on embeds, see [Custom Embeds](/features/custom_embeds.md)
         embedLayout = "default"
 ```
 
+***
+
 ## accessControl
 
 This section allows you to have a "white-list" based on Discord roles.
 
-See [Access Control](/features/whitelisting.md) for a more indepth guide on setting this up
+See [Access Control](/features/whitelisting.md) for a more in-depth guide on setting this up
 
 ```json
 [accessControl]
@@ -370,6 +383,8 @@ Allows you to customize the messages that appear when accessControl is enabled.
     roleDenied = "Sorry, but you are not allowed to access this server."
 ```
 
+***
+
 ## minecraftCommands
 
 This allows you to execute in-game commands from Discord
@@ -377,7 +392,7 @@ This allows you to execute in-game commands from Discord
 :::note Multiple Servers
 If you have multiple sdlink bots on the same Discord server, you may want to change the prefix for the commands.
 If the prefix is the same, the command will be triggered on all servers at once.
-<br>![](advanced-config7.png)
+<br>![](https://cdn.firstdark.dev/docs/sdlink-wiki/advanced-config7.png)
 :::
 
 See [Linked Commands](/features/linked-commands.md) for more details on how this works
@@ -393,11 +408,13 @@ See [Linked Commands](/features/linked-commands.md) for more details on how this
     permissions = []
 ```
 
+***
+
 ## ignoredMessages
 
 This allows you to ignore certain messages from being relayed to discord or to replace words in messages
 
-see *link to mod features message filtering* for more details on how this works
+see [Message Filtering](../features/filtering.md) for more details on how this works
 
 ```json
 #Configure messages that will be ignored when relaying to discord
