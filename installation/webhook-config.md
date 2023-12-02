@@ -1,5 +1,9 @@
 # Webhook Setup
 
+!!!warning WIP Warning
+These docs are still a WIP. If you can't find what you are looking for, feel free to ask us in Discord
+!!!
+
 In order to use the webhook messages, you need to add a webhook integration to the channel you want the messages to go to.
 
 !!! Webhook vs Embeds

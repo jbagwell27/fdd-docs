@@ -3,6 +3,10 @@ title: Custom Embeds
 order: d
 ---
 
+!!!warning WIP Warning
+These docs are still a WIP. If you can't find what you are looking for, feel free to ask us in Discord
+!!!
+
 Simple Discord Link now allows you to customize the layout of embeds, used for various messages.
 
 Custom Embeds are stored in `config/simple-discord-link/embeds` and use a JSON structure.

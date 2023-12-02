@@ -2,6 +2,10 @@
 title: Basic Mod Setup
 order: c
 ---
+!!!warning WIP Warning
+These docs are still a WIP. If you can't find what you are looking for, feel free to ask us in Discord
+!!!
+
 # SDLink Basic Mod Setup
 
 This will go through the basics of getting the mod installed with bot status and chat features  

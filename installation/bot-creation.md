@@ -2,6 +2,10 @@
 title: Discord Bot Creation
 order: a
 ---
+!!!warning WIP Warning
+These docs are still a WIP. If you can't find what you are looking for, feel free to ask us in Discord
+!!!
+
 # SDLink Discord Bot Setup
 
 ## Enable Developer Mode

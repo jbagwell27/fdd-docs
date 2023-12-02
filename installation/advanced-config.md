@@ -1,5 +1,9 @@
 # SDLink Advanced Mod Setup
 
+!!!warning WIP Warning
+These docs are still a WIP. If you can't find what you are looking for, feel free to ask us in Discord
+!!!
+
 There are several other options you can enable in the config to further customize your experience.  
 Below are the different sections of the config file explained in more detail.
 

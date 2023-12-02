@@ -1,6 +1,10 @@
 ---
 title: "Migrating from V2"
 ---
+!!!warning WIP Warning
+These docs are still a WIP. If you can't find what you are looking for, feel free to ask us in Discord
+!!!
+
 
 Simple Discord Link 3.0.0+ are not a drop-in upgrade for 2.+. You will need to make some changes to both your server, and the config to get V3 to work.
 

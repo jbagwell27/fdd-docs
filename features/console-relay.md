@@ -2,6 +2,10 @@
 title: Console Relay
 order: e
 ---
+!!!warning WIP Warning
+These docs are still a WIP. If you can't find what you are looking for, feel free to ask us in Discord
+!!!
+
 
 Sometimes you want to know what is going on, on your server, without having to access the console.
 
