@@ -2,10 +2,6 @@
 title: Access Control
 order: b
 ---
-!!!warning WIP Warning
-These docs are still a WIP. If you can't find what you are looking for, feel free to ask us in Discord
-!!!
-
 
 Simple Discord Link V3 no longer contains the old Whitelisting and Account Linking systems. Instead, it includes a new system called Access Control, which is a much more powerful, much more stable and much more user/server owner friendly.
 
@@ -13,10 +9,6 @@ Simple Discord Link V3 no longer contains the old Whitelisting and Account Linki
 You and any other "staff members" will also need to verify your Minecraft account, and if configured, have any of the `requiredRoles` assigned to you.
 
 If you don't, you will also get kicked from the server when you try to join
-!!!
-
-!!!danger
-This feature requires Server Side whitelisting to be disabled
 !!!
 
 ---

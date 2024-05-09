@@ -2,10 +2,6 @@
 title: "Empty Config"
 order: d
 ---
-!!!warning WIP Warning
-These docs are still a WIP. If you can't find what you are looking for, feel free to ask us in Discord
-!!!
-
 
 # Empty Config
 

@@ -2,9 +2,6 @@
 title: Discord Bot Creation
 order: a
 ---
-!!!warning WIP Warning
-These docs are still a WIP. If you can't find what you are looking for, feel free to ask us in Discord
-!!!
 
 # SDLink Discord Bot Setup
 
@@ -21,6 +18,8 @@ Scroll through the side panel and select "Advanced" in the **App Settings** sect
 Toggle Developer Mode
 <br>![](https://cdn.firstdark.dev/docs/sdlink-wiki/devmode3.png)
 
+***
+
 ## Creating the Bot
 
 Go to [https://discord.com/developers](https://discord.com/developers)
@@ -36,6 +35,8 @@ Even though it will let you, Don't put "Discord" in the name of the application,
 The Bot can't have "Discord" in the name, and it uses the Application name as the default bot name.
 :::
 
+***
+
 ## Configuring the Bot (**Bot** Section)
 
 ### Build-A-Bot
@@ -48,15 +49,21 @@ It's important that you don't share this bot token with anyone. It is essentiall
 This token will also be encrypted in the config file after you launch the server for the first time
 !!!
 
+&nbsp;
+
 ### Authorization Flow
 
 Disable the "PUBLIC BOT" flag. This will ensure that only YOU can add the bot to a server
 <br>![](https://cdn.firstdark.dev/docs/sdlink-wiki/bot2.png)
 
+&nbsp;
+
 ### Privileged Gateway Intents
 
 Ensure all options in "Privileged Gateway Intents" are checked. These are needed for the bot to function.
 <br>![](https://cdn.firstdark.dev/docs/sdlink-wiki/bot6.png)
+
+***
 
 ## OAuth2 URL Generator
 

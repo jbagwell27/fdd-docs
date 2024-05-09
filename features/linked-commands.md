@@ -2,9 +2,6 @@
 title: Linked Commands
 order: a
 ---
-!!!warning WIP Warning
-These docs are still a WIP. If you can't find what you are looking for, feel free to ask us in Discord
-!!!
 
 Simple Discord Link allows you to execute Minecraft commands, directly in Discord without having to use the server console.
 

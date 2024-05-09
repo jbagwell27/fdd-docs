@@ -3,10 +3,6 @@ title: Custom Embeds
 order: d
 ---
 
-!!!warning WIP Warning
-These docs are still a WIP. If you can't find what you are looking for, feel free to ask us in Discord
-!!!
-
 Simple Discord Link now allows you to customize the layout of embeds, used for various messages.
 
 Custom Embeds are stored in `config/simple-discord-link/embeds` and use a JSON structure.
@@ -177,3 +173,5 @@ You can use the following placeholders inside embeds:
 2) `%avatar%` -> The player/server avatar link
 3) `%message_contents%` -> The actual contents of the message
 4) `%username%` -> The raw username of the player/server. For example, `hypherionsa` or `server`
+5) `%player_avatar%` -> Get the Player avatar in server messages (Join/Leave, Death etc)
+6) `%player_name%` -> Get the name of the player in server messages (Join/Leave, Death etc)

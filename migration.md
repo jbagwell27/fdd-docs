@@ -12,7 +12,6 @@ To upgrade to V3, you will have to let the mod generate a new config file for yo
 
 ### Server Side Changes for V3
 
-* Disable Whitelisting. The [Access Control](./features/whitelisting.md) feature does not use the Minecraft whitelist anymore, and requires it to be disabled.
 * You can remove the `sdlinkwhitelist.db` file, unless you plan on going back to V2
 
 ### Mod Changes for V3

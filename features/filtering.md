@@ -2,9 +2,6 @@
 title: Message Filtering
 order: c
 ---
-!!!warning WIP Warning
-These docs are still a WIP. If you can't find what you are looking for, feel free to ask us in Discord
-!!!
 
 Message Filtering is a system that allows you to ignore certain messages from being relayed to discord or to replace words in messages.
 

@@ -1,13 +1,18 @@
-# Webhook Setup
+---
+title: Webhook Setup
+order: f
+---
 
-!!!warning WIP Warning
-These docs are still a WIP. If you can't find what you are looking for, feel free to ask us in Discord
-!!!
+# Webhook Setup
 
 In order to use the webhook messages, you need to add a webhook integration to the channel you want the messages to go to.
 
 !!! Webhook vs Embeds
 Webhooks are not required for embedded messages. They are both separate from each other.
+!!!
+
+!!!warning Tip
+You can use the `/setchannel` command in discord to configure channels and webhooks
 !!!
 
 Right-Click -> Edit Channel on the channel you want to send webhooks to. In this example I'm using the **Chat** channel

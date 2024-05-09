@@ -2,9 +2,6 @@
 title: Basic Mod Setup
 order: c
 ---
-!!!warning WIP Warning
-These docs are still a WIP. If you can't find what you are looking for, feel free to ask us in Discord
-!!!
 
 # SDLink Basic Mod Setup
 
@@ -39,6 +36,8 @@ In the `[botConfig]` section, insert the bot token saved from [Discord Bot Setup
 ```
 
 This is the identifier for your bot. This token will be encrypted when your server starts up again.
+
+&nbsp;
 
 ### Setting the Chat Channel
 
