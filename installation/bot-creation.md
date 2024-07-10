@@ -52,6 +52,13 @@ This token will also be encrypted in the config file after you launch the server
 &nbsp;
 
 ### Authorization Flow
+Click on the INSTALLATION Tab on the left hand menu.
+
+From there on the `Installation` page, disable `User Install`, keep `Guild Install` checked, and set the `Install Link` to NONE.
+
+<br>![](https://cdn.firstdark.dev/docs/sdlink-wiki/installation.png)
+
+Now go back to the BOT section.
 
 Disable the "PUBLIC BOT" flag. This will ensure that only YOU can add the bot to a server
 <br>![](https://cdn.firstdark.dev/docs/sdlink-wiki/bot2.png)
@@ -67,8 +74,7 @@ Ensure all options in "Privileged Gateway Intents" are checked. These are needed
 
 ## OAuth2 URL Generator
 
-Go to "OAuth2" >> "URL Generator" on the side panel
-<br>![](https://cdn.firstdark.dev/docs/sdlink-wiki/bot3.png)
+Go to "OAuth2" and scroll down to the bottom of the page.
 
 Select "applications.commands" and "bot" in the **SCOPES** section.
 <br>![](https://cdn.firstdark.dev/docs/sdlink-wiki/bot4.png)
