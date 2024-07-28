@@ -48,7 +48,7 @@ In the "Installation Contexts", uncheck "User Install"
 Set "Install Link" to "None"
 
 This is what the result should look like:
-<br>![](installation.png)
+<br>![](https://cdn.firstdark.dev/docs/sdlink-wiki/installation.png)
 
 ### BOT TAB
 
